@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>INTeamFox</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+      font-size: 200px
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+  <!--nav-bar-->
+  <div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="what.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">What is
+        Clubhouse?</a>
+      <a href="how.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">How it help us?</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact us</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="what.html" class="w3-bar-item w3-button w3-padding-large">What is Clubhouse?</a>
+      <a href="how.html" class="w3-bar-item w3-button w3-padding-large">How it help us?</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact us</a>
+    </div>
+  </div>
+  <div style="padding-top: 69px;" class="w3-center">
+    <p> Okay, So what is it?Here's the gist: Imagine you have an app on your phone that lets you listen in on other
+      people's live conversations.But not in a creepy way;these people want to be heard. They may even be famous, or at
+      least interesting or knowledgeable(no guarantee,however).And you may be given the apportunity to join the
+      chat.Think of it as an audio chat social network.Or as PCMag's Jordan Minor says in our review,"What if Twitter
+      was a podcast you lived inside of?"<br>
+      <br>
+      When did it launch? Clubhouse launched(along with COVID in the US!)in March 2020.It became a big deal to a select
+      few in part because of it's invite-only exclusively,much like a real-world club membership.In those early days ,it
+      was a tiny community,mainly consisting of venture capatilists.After all,the company behind clubhouse-Alpha
+      Exploration Co. -recieved a $12 million investment from Andreeson Horowitz after two months of existence.It was
+      quickly worth $100 million-and it only had 1,500 users at the time.(Valuation for clubhouse as of April 2021:$4
+      billion.)<br>
+      <br>
+      Where can i get the clubhouse app?<br>Clubhouse is currently available on iOS and Android.It launched on iOS last
+      year,and the company started a US-only Android rollout in early May.As of May 21,it's availble on Android
+      worldwide,and downloads of the Android version crossed 1 milllion in less than two weaks.
+    </p>
+  </div>
+
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+</body>
+
+</html>
